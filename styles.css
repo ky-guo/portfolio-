@@ -1,0 +1,37 @@
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: #fff url("http://68.media.tumblr.com/aa7cf035d8664b15d6b4d12ad0115613/tumblr_nj1w32Yt3m1sif4cro2_1280.gif")  no-repeat bottom right;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav {
+  text-align: left;
+  height: 100px;
+  width: 100px;
+  padding: 10px 10px 10px 0px;
+  margin-left: 0px;
+  border-left: 0px;
+  align-items: center;
+}
+
+.nav li {
+  padding: 5px;
+}
+
+.nav li:hover {
+  font-size: 16px;
+}
+
+.Aboutme {
+  text-align: center;
+}
