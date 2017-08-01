@@ -1,0 +1,88 @@
+/* Universal ---------------------------*/
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* START of Landing Page CSS ---------------------------*/
+#Landingbod {
+  font-family: sans-serif;
+  position: fixed;
+}
+
+#Landingdiv {
+  position: fixed;
+  top:30%;
+  left:20%;
+  right:20%;
+  padding:3.2em;
+
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+#Landingdiv h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+#Landingdiv h3 {
+  text-align: center;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.landtext:hover {
+  font-weight: 300;
+}
+
+/* END of landing page CSS ---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background: #fff url("http://68.media.tumblr.com/aa7cf035d8664b15d6b4d12ad0115613/tumblr_nj1w32Yt3m1sif4cro2_1280.gif")  no-repeat bottom right;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+
+.nav {
+  text-align: left;
+  height: 100px;
+  width: 100px;
+  padding: 10px 10px 10px 0px;
+  margin-left: 0px;
+  border-left: 0px;
+  align-items: center;
+}
+
+.nav li {
+  padding: 5px;
+}
+
+.nav li:hover {
+  font-size: 16px;
+}
+
+.Aboutme {
+  text-align: center;
