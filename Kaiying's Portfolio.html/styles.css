@@ -1,0 +1,139 @@
+/* Universal ---------------------------*/
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* START of Landing Page CSS ---------------------------*/
+#Landingbod {
+  font-family: sans-serif;
+  position: fixed;
+}
+
+#Landingdiv {
+  position: fixed;
+  top:30%;
+  left:20%;
+  right:20%;
+  padding:3.2em;
+
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+#Landingdiv h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+#Landingdiv h3 {
+  text-align: center;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.landtext:hover {
+  font-weight: 300;
+}
+
+/* END of landing page CSS ---------------------------*/
+
+/*font size, background images, etc ---------------------------*/
+
+body {
+  /*background: #fff url("http://68.media.tumblr.com/aa7cf035d8664b15d6b4d12ad0115613/tumblr_nj1w32Yt3m1sif4cro2_1280.gif")  no-repeat bottom right;*/
+  background: #fff url("https://static1.squarespace.com/static/52810c8ce4b0bfa86bc38ed1/t/52ee86b1e4b01be1be5ea41c/1391363762311/Laura%27s+border.png?format=750w")  bottom;
+  background-repeat: repeat-x;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Start of Navigation CSS ---------------------------*/
+
+.nav {
+  position: fixed;
+  text-align: left;
+  height: 100px;
+  width: 100px;
+  padding: 10px 10px 10px 0px;
+  margin-left: 20px;
+  border-left: 0px;
+  margin-top: 20em;
+  font-family: monospace;
+  letter-spacing: 0.1px;
+}
+
+  /*the navigation image START */
+
+.nav img {
+  max-width: 120%;
+  padding: 5px;
+  margin-left:2em;
+}
+  /*the navigation image END */
+
+.nav ul {
+  text-align: center;
+  margin-left: 1em;
+  margin-top: 0px;
+}
+.nav li {
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.nav li:hover {
+  font-size: 16px;
+
+}
+
+.nav #more {
+  margin-left: -3em;
+  font-size: 12px;
+  display: none;
+}
+
+.nav #more li:hover{
+  font-size: 12.5px;
+  display:list-item;
+}
+
+
+#title {
+  position: sticky;
+  margin-right: 30em;
+  margin-left: 30em;
+  border-top: 0px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 300;
+  font-size: 20px;
+  background-color: #88AF00;
+}
+
+
+#Aboutme {
+  position: sticky;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-right: 30em;
+  margin-left: 30em;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  border-color: #88AF00;
+  border-style: dashed;
+}
+
+#Aboutme p {
+  text-align: center;
+}
